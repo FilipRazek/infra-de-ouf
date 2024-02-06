@@ -22,3 +22,7 @@ jobs:
           acrName: cae797e7c90bacr
           targetPort: 5000
           location: francecentral
+          resourceGroup: razek
+          disableTelemetry: true
+          runtimeStack: 'python:3.10.13'
+          builderStack: 'python:3.10.13'
